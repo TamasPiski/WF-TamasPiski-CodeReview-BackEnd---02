@@ -1,22 +1,22 @@
 package com.company;
 
 public class InternalWorkout {
-    private Excercise[] excercises;
+    private Exercise[] exercises;
     private int numberOfRepetitions;
     private int breakDuration;
 
-    public InternalWorkout(Excercise[] excercises, int numberOfRepetitions, int breakDuration) {
-        this.setExcercises(excercises);
+    public InternalWorkout(Exercise[] exercises, int numberOfRepetitions, int breakDuration) {
+        this.setExercises(exercises);
         this.setNumberOfRepetitions(numberOfRepetitions);
         this.setBreakDuration(breakDuration);
     }
 
-    public Excercise[] getExcercises() {
-        return excercises;
+    public Exercise[] getExercises() {
+        return exercises;
     }
 
-    public void setExcercises(Excercise[] excercises) {
-        this.excercises = excercises;
+    public void setExercises(Exercise[] exercises) {
+        this.exercises = exercises;
     }
 
     public int getNumberOfRepetitions() {
